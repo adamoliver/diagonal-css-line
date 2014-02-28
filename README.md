@@ -4,10 +4,10 @@
 
 ```
 var newLine = new DiagonalLine({
-    x1: this.resultPositions[i].x,
-    y1: this.resultPositions[i].y,
-    x2: this.centrePoint.x,
-    y2: this.centrePoint.y
+    x1: 0,
+    y1: 0,
+    x2: 200,
+    y2: 200
 });
 
 $('#example').append(newLine.draw());
